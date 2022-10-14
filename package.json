@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack",
-    "serve": "http-server"
+    "serve": "http-server",
+    "compile": "node ./tools/compiler.js"
   },
   "keywords": [],
   "author": "kentahama",
